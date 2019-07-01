@@ -1,0 +1,31 @@
+{
+	"name": "IterateAndCopySQLTables",
+	"image": "<svg width=\"400px\" height=\"240px\" viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g transform=\"matrix(1, 0, 0, 1, 0, 0)\" clip-path=\"url(#mainClip175892)\"><g transform=\"matrix(0.851063829787234, 0, 0, 0.851063829787234, 113.61702127659574, 84.25531914893617)\"><g transform=\"matrix(1, 0, 0, 1, 0, 0)\"><g transform=\"matrix(1, 0, 0, 1, 0, 0)\"><g transform=\"matrix(1, 0, 0, 1, 0, 0)\"><g transform=\"matrix(1, 0, 0, 1, 0, 0)\"><g transform=\"matrix(1, 0, 0, 1, 0.8, 0.8)\"><rect x=\"0\" y=\"0\" width=\"192.4\" height=\"82.4\" fill=\"#F4F4F4\" stroke=\"none\" transform=\"matrix(1, 0, 0, 1, 0, 0)\"/><g transform=\"matrix(1, 0, 0, 1, 0, 0)\"><rect x=\"0\" y=\"0\" width=\"192.4\" height=\"25\" fill=\"#DCDCDC\" stroke=\"none\" transform=\"matrix(1, 0, 0, 1, 0, 0)\"/><g transform=\"matrix(1, 0, 0, 1, 0, 0)\" clip-path=\"url(#CLIP175893)\"><text x=\"0\" y=\"10.506005859375001\" style=\"font: 12px Segoe UI\" text-anchor=\"start\" fill=\"#515151\" stroke=\"none\" transform=\"matrix(1, 0, 0, 1, 5, 6.5)\">ForEach</text></g></g><g transform=\"matrix(1, 0, 0, 1, 0, 25)\"><g transform=\"matrix(1, 0, 0, 1, 10, 13.5)\"><path d=\"M 16.944,7.0649999999999995 L 15.883500000000002,6.0045 L 12.0435,9.8445 L 15.789,13.589999999999998 L 16.8495,12.529499999999999 L 14.8215,10.5015 L 22.542,10.5015 L 22.542,10.5 L 24,10.5 L 24,21 L 12,21 L 12,6 L 4.5,6 L 4.5,25.5 L 12,25.5 L 12,22.5 L 25.5,22.5 L 25.5,9 L 15.0105,9 L 16.944,7.0649999999999995 z M 10.5,24 L 6,24 L 6,19.5 L 10.5,19.5 L 10.5,24 z M 10.5,18 L 6,18 L 6,13.5 L 10.5,13.5 L 10.5,18 z M 10.5,12 L 6,12 L 6,7.5 L 10.5,7.5 L 10.5,12 z\" fill=\"#424242\" stroke=\"none\" transform=\"matrix(1, 0, 0, 1, 0, 0)\"/></g><g transform=\"matrix(1, 0, 0, 1, 0, 0)\" clip-path=\"url(#CLIP175894)\"><g transform=\"matrix(1, 0, 0, 1, 50, 21.328662109375)\"><text x=\"0\" y=\"12.257006835937501\" style=\"font: 14px Segoe UI\" text-anchor=\"start\" fill=\"black\" stroke=\"none\" transform=\"matrix(1, 0, 0, 1, 0, 0)\">IterateSQLTables</text></g></g></g></g><path d=\"M 2,0 L 191,0 C 191.89543050033842,0 193,1.1045694996615871 193,2 L 193,81 C 193,81.8954305003384 191.89543050033842,83 191,83 L 2,83 C 1.1045694996615871,83 0,81.8954305003384 0,81 L 0,2 C 0,1.1045694996615871 1.1045694996615871,0 2,0 z\" fill=\"transparent\" stroke=\"none\" transform=\"matrix(1, 0, 0, 1, 0.5, 0.5)\"/><path d=\"M 2,0 L 191,0 C 191.89543050033842,0 193,1.1045694996615871 193,2 L 193,81 C 193,81.8954305003384 191.89543050033842,83 191,83 L 2,83 C 1.1045694996615871,83 0,81.8954305003384 0,81 L 0,2 C 0,1.1045694996615871 1.1045694996615871,0 2,0 z\" fill=\"none\" stroke=\"#C8C8C8\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" transform=\"matrix(1, 0, 0, 1, 0.5, 0.5)\"/></g></g></g><g transform=\"matrix(1, 0, 0, 1, 194, 1)\"><g transform=\"matrix(1, 0, 0, 1, 0, 34)\"><g transform=\"matrix(1, 0, 0, 1, 0, 0)\"><path d=\"M 0,0 L 9,0 L 9,12 L 0,12 z\" fill=\"#488E50\" stroke=\"none\" transform=\"matrix(1, 0, 0, 1, 0, 1)\"/></g></g></g></g></g></g><clipPath id=\"mainClip175892\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"240\"/></clipPath><clipPath id=\"CLIP175893\"><path d=\"M 5,6.5 L 192.4,6.5 L 192.4,25 L 5,25 z\" transform=\"matrix(1, 0, 0, 1, 0, 0)\"/></clipPath><clipPath id=\"CLIP175894\"><path d=\"M 50,21.328662109375 L 192.4,21.328662109375 L 192.4,37.671337890625 L 50,37.671337890625 z\" transform=\"matrix(1, 0, 0, 1, 0, 0)\"/></clipPath></svg>",
+	"icons": [
+		"ForEach",
+		"AzureSqlTable",
+		"AzureSqlDWTable"
+	],
+	"requires": {
+		"linkedservices": {
+			"AzureBlobStorage": {
+				"supportTypes": [
+					"AzureBlobStorage"
+				]
+			},
+			"AzureSqlDatabase": {
+				"supportTypes": [
+					"AzureSqlDatabase"
+				]
+			},
+			"AzureSqlDWH": {
+				"supportTypes": [
+					"AzureSqlDW"
+				]
+			}
+		}
+	},
+	"author": "vigneshkrish.vk@gmail.com",
+	"annotations": [],
+	"services": []
+}
